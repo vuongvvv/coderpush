@@ -1,6 +1,5 @@
 *** Settings ***
 Resource    ../../resources/locators/coderpush/open_business_account_locators.robot
-Resource    ../common/web_common.robot
 
 *** Keywords ***
 Verify Business Account deposit or monthly fees table values

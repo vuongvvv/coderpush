@@ -30,9 +30,10 @@ Input Text To Element
     Input Text    ${element}    ${text}
     
 Click Visible Element
-    [Arguments]    ${element}
+    [Arguments]    ${element}    ${delay}=${None}
     Wait Until Element Is Visible    ${element}
-    Click Element    ${element}    
+    Click Element    ${element}
+    Run Keyword If    "${delay}"!="${None}"    Sleep    ${delay}
 
 Scroll To Element
     [Arguments]    ${element}

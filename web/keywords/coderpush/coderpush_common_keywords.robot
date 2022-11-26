@@ -1,6 +1,6 @@
 *** Settings ***
 Resource    ../../resources/locators/coderpush/coderpush_common_locators.robot
-Resource    ../common/web_common.robot
+
 *** Keywords ***
 I navigate to Sleek SG
     Open Browser With Option    https://sleek.com/sg/business-account/
